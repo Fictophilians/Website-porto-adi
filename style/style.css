@@ -455,3 +455,37 @@ body {
 
   }
 }
+
+@media (max-width: 1024px) {
+
+  .navbar {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .navbar .judul a {
+    font-size: 22px;
+  }
+
+  .navbar .item a {
+    margin: 10px;
+    font-size: 17px;
+  }
+
+  .home {
+    padding-top: 130px;
+    font-size: 20px;
+  }
+
+  .job {
+    font-size: 18px;
+  }
+
+  .get-started.get-started a {
+    margin-left: 0;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 18px;
+    margin-left: 12rem;
+  }
+}
+
