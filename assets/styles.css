@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Jumbotron */
+header .jumbotron {
+  background: #8b0000;
+  /* merah tua */
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Navigasi */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #333;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #8b0000;
+  font-weight: bold;
+}
+
+/* Layout Flexbox */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+#content {
+  flex: 3;
+  min-width: 60%;
+}
+
+aside {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.featured-image {
+  max-width: 150px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Galeri */
+.img-box {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.img-box img {
+  max-width: 240px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  width: 40%;
+  color: #8b0000;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
