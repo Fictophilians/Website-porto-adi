@@ -483,7 +483,7 @@ body {
   .get-started.get-started a {
     margin-left: 0;
     margin-top: 20px;
-    display: inline-block;
+    display: flex;
     padding: 12px 18px;
     justify-content: center;
     
