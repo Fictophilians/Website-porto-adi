@@ -434,7 +434,37 @@ transform: scale(1.15);
   scroll-margin-top: 60px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .navbar .judul a {
+    font-size: 22px;
+  }
+
+  .navbar .item a {
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .home {
+    padding-top: 130px;
+    font-size: 30px;
+  }
+
+  .job {
+    font-size: 18px;
+  }
+
+  .get-started.get-started a {
+    margin-left: 0;
+    margin-right: 16rem;
+    margin-top: 20px;
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+
   .About-card {
     flex-direction: column;
     text-align: center;
@@ -461,38 +491,7 @@ transform: scale(1.15);
 
   }
 }
-
-@media (max-width: 767px) {
-
-  .navbar {
-    padding: 1.2rem 1.5rem;
-  }
-
-  .navbar .judul a {
-    font-size: 22px;
-  }
-
-  .navbar .item a {
-    margin: 5px;
-    font-size: 15px;
-  }
-
-  .home {
-    padding-top: 130px;
-    font-size: 30px;
-  }
-
-  .job {
-    font-size: 18px;
-  }
-
-  .get-started.get-started a {
-    margin-left: 0;
-    margin-top: 20px;
-    display: flex;
-    padding: 12px 18px;
-    justify-content: center;
-    
-  }
 }
+
+
 
