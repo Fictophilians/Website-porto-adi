@@ -464,8 +464,6 @@ transform: scale(1.15);
 
 @media (max-width: 767px) {
 
-  @media (max-width: 600px) {
-
   .navbar {
     flex-direction: column;
     text-align: center;
@@ -502,8 +500,6 @@ transform: scale(1.15);
   }
 
   .get-started.get-started a {
-    
-    
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -513,7 +509,7 @@ transform: scale(1.15);
 }
 
     
-  }
+
 
 
 
