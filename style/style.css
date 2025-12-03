@@ -87,16 +87,6 @@ body {
   justify-content: center;
 }
 
-.get-started.get-started a {
-  justify-content: center;
-  margin-right: 10px;
-  text-decoration: none;
-  color: #1a1a1a;
-  border-radius: 10px;
-  background-color: #ffe1af;
-  padding: 12px;
-  box-shadow: 10px;
-}
 
 .get-started a :hover{
 background-color: #d49c6b;
