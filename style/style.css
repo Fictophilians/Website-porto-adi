@@ -82,17 +82,6 @@ body {
 @keyframes blink {
     50% { border-color: transparent; }
 }
-.get-started{
-
-  justify-content: center;
-}
-
-
-.get-started a :hover{
-background-color: #d49c6b;
-color: white;
-transform: scale(1.15);
-}
 
 .social-bar {
   position: fixed;
@@ -423,7 +412,7 @@ transform: scale(1.15);
   scroll-margin-top: 60px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .About-card {
     flex-direction: column;
     text-align: center;
@@ -486,16 +475,11 @@ transform: scale(1.15);
 
   .mengetik {
     font-size: 18px;
+    box-shadow: #1a1a1a;
+
+
   }
 
-   .get-started {
-    margin-top: 20px;
-    justify-content: center;
-  }
-
-  .get-started a {
-    padding: 10px 16px;
-  }
 }
 
     
