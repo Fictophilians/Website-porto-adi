@@ -475,11 +475,32 @@ body {
 
   .mengetik {
     font-size: 18px;
-    box-shadow: #1a1a1a;
-
-
   }
 
+}
+
+@media (max-width: 767px){
+  .card {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 90px;
+  justify-items: center;
+  padding: 0 20px;
+  padding-bottom: 50px;
+}
+
+.Card-Skill {
+  width: 150px;
+  height: 110px;
+  background-color: #ffe1af;
+  border-radius: 25px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  flex-direction: column;
+}
 }
 
     
