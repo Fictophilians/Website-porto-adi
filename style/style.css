@@ -460,7 +460,7 @@ body {
 
   .navbar .item a {
     margin: 5px;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .home {
@@ -522,7 +522,6 @@ body {
     border-radius: 15px;
   }
 
-  /* Input kecil */
   .form {
     width: 100%;
     margin: 5px 0;
