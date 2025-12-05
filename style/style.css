@@ -430,6 +430,7 @@ body {
     text-align: center;
     padding: 1rem;
     gap: 10px;
+    max-width: 100%;
   }
 
   .navbar .judul a {
@@ -450,6 +451,7 @@ body {
     font-size: 22px;
     padding-top: 100px;
     text-align: center;
+    margin-top: 2rem;
   }
 
   .job {
@@ -552,6 +554,7 @@ body {
   .footer {
     font-size: 14px;
     padding: 1rem;
+    max-width: 100%;
   }
 }
 
