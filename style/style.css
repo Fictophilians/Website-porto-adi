@@ -307,11 +307,11 @@ body {
   border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
-  transition: 0.3s;
+  transition:  0.3s;
 }
 
 .btn-certificate:hover {
-  background: #b76e32;
+  background: #c57a5b;
   transform: scale(1.05);
   color: white;
 }
