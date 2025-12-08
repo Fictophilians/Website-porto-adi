@@ -395,7 +395,7 @@ body {
   scroll-margin-top: 60px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
   .About-card {
     flex-direction: column;
     text-align: center;
@@ -423,7 +423,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
 
   .navbar {
     flex-direction: column;
@@ -464,7 +464,7 @@ body {
 
 }
 
-@media (max-width: 767px){
+@media (max-width: 770px){
   .card {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -488,13 +488,13 @@ body {
 }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
     .Card-Skill {
         grid-template-columns: repeat(2, 1fr);
         flex-direction: row;
     }}
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
     .project-card {
         flex-direction: column;
         text-align: center;
@@ -506,7 +506,7 @@ body {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
 
   .contact-head {
     margin-top: 10rem;
