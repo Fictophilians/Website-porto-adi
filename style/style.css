@@ -395,7 +395,7 @@ body {
   scroll-margin-top: 60px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
   .About-card {
     flex-direction: column;
     text-align: center;
@@ -423,7 +423,7 @@ body {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
 
   .navbar {
     flex-direction: column;
@@ -464,7 +464,7 @@ body {
 
 }
 
-@media (max-width: 770px){
+@media (max-width: 760px){
   .card {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -488,7 +488,7 @@ body {
 }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
     .Card-Skill {
         grid-template-columns: repeat(2, 1fr);
         flex-direction: row;
@@ -506,7 +506,7 @@ body {
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
 
   .contact-head {
     margin-top: 10rem;
@@ -548,6 +548,10 @@ body {
     font-size: 16px;
     text-align: center;
     background-color: #e2b59a;
+  }
+
+  .contact-img {
+    margin-right: 1rem;
   }
 
   
